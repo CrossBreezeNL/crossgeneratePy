@@ -1,0 +1,9 @@
+modelFileLocation: "model"
+templateFileLocation: "templates"
+outputFileLocation: "output"
+modelTemplateBindings:
+  - modelFile: "model.yml"
+    modelYAMLPath: "model.entities"
+    templateBindings:
+    - templateFile: createTable.sql.jinja2
+      outputFileName: "{{name}}.sql"

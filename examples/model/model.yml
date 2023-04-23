@@ -1,0 +1,22 @@
+model:
+  name: exampleSource
+  entities:
+    - code: Customer
+      name: Customer
+      attributes:
+      - code: CustomerID
+        dataType: integer
+        mandatory: true
+      - code: Name
+        dataType: varchar
+        length: 128
+      - code: DateOfBirth
+        dataType: date
+    - code: SalesOrder
+      name: SalesOrder
+      attributes:
+      - code: SalesOrderId
+        dataType: integer
+      - code: CustomerID
+        dataType: integer
+

@@ -1,0 +1,7 @@
+CREATE TABLE {{name}}
+(
+    {% for attr in attributes -%}
+    {{attr.code}}   {{attr.dataType}},
+    {% endfor -%}
+    created DATETIME
+)

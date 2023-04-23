@@ -1,6 +1,7 @@
 """crossgenerate module, contains all classes for the generator"""
 import sys
 from .crossgenerate import CrossGenerate
+from .crossgenerate_exception import CrossGenerateException
 
 if __name__ == "__main__":
     # Entry point of module, process commandline arguments and invoke crossGenerate

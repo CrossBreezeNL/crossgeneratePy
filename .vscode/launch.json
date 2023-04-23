@@ -8,7 +8,7 @@
             "name": "Python: CrossGenerate",
             "type": "python",
             "request": "launch",
-            "module": "crossGenerate",
+            "module": "crossgenerate",
             "console": "integratedTerminal",
             "cwd": "${workspaceFolder}",
             "justMyCode": true,
